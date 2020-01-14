@@ -1,0 +1,40 @@
+<mat-sidenav-container class="example-container">
+  <mat-sidenav #sidenav mode="side" [opened]="true">
+    <mat-list>
+      <mat-list-item>
+        Dashboard
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon>vertical_split</mat-icon> Категории
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon>edit</mat-icon> Заметки
+      </mat-list-item>
+      <mat-list-item>
+        <mat-icon>description</mat-icon> Статьи
+      </mat-list-item>
+    </mat-list>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-grid-list cols="3" rowHeight="150px">
+      <mat-grid-tile>
+        <mat-card>
+          <mat-card-title>Категории</mat-card-title>
+          <mat-card-subtitle>категории для заметок и статей</mat-card-subtitle>
+        </mat-card>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-card>
+          <mat-card-title>Заметки</mat-card-title>
+          <mat-card-subtitle>ыфывафыва</mat-card-subtitle>
+        </mat-card>
+      </mat-grid-tile>
+      <mat-grid-tile>
+        <mat-card>
+          <mat-card-title>Статьи</mat-card-title>
+          <mat-card-subtitle>ыфывафыва</mat-card-subtitle>
+        </mat-card>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </mat-sidenav-content>
+</mat-sidenav-container>
