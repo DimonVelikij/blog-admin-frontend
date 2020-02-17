@@ -14,9 +14,9 @@ export class ContentComponent implements OnInit {
   @ViewChild('sidenav', {static: true})
   public sidenav: MatSidenav;
 
-  constructor() { }
+  public constructor() { }
 
-  ngOnInit() {
+  public ngOnInit() {
     this.setSideNavControl.emit(this.sidenav);
   }
 
